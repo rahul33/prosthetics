@@ -1,0 +1,14 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "client side of udel prosthetics project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test123"
+  },
+  "author": "Rahul Prasad",
+  "license": "ISC"
+}

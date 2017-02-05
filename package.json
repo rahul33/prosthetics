@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "async": "^1.x.x",
-    "bcrypt": "^0.8.x",
+    "bcryptjs": "~0.7.12",
     "body-parser": "^1.x.x",
     "compression": "^1.x.x",
     "connect-mongo": "^0.8.x",
@@ -68,6 +68,7 @@
     "karma-jasmine": "^0.3.5",
     "karma-phantomjs-launcher": "~0.1",
     "mongodb": "~2.0",
-    "prompt": "^0.2.14"
+    "prompt": "^0.2.14",
+    "webpack": "^1.14.0"
   }
 }

@@ -57,10 +57,18 @@ module.exports = function(grunt) {
           {
             expand: true, cwd: 'client/bower_components/moment/',
             src: ['moment.js'], dest: '<%= distdir %>/vendor/'
+          },
+          {
+            expand: true, cwd: 'client/bower_components/api-check/dist/',
+            src: ['api-check.js'], dest: '<%= distdir %>/vendor/'
+          },
+          {
+            expand: true, cwd: 'client/bower_components/angular-formly/dist/',
+            src: ['formly.js'], dest: '<%= distdir %>/vendor/'
           }
         ]
       },
-      asset: {
+      asset: {  
         files: [
           {
             expand: true, cwd: 'client/src/assets/',

@@ -11,7 +11,8 @@ angular.module('app', [
   'security',
   'templates.app',
   'templates.common',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'configure'
 ]);
 
 
@@ -38,6 +39,11 @@ angular.module('app').config(['$routeProvider', '$locationProvider', function ($
     .when('/about', {
       templateUrl: 'about.tpl.html',
       title: 'About Us'
+    })
+    .when('/configure', {
+      templateUrl: 'configure.tpl.html',
+      controller: 'ConfigureCtrl',
+      title: 'Configure'
     })
     .otherwise({
       templateUrl: '404.tpl.html',
